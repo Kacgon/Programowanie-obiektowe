@@ -100,9 +100,9 @@ static void ShowOrders(Dictionary<int, (StatusZamowienia, List<string>)> zamowie
         Console.WriteLine($"Id: {przedmiot.Key}");
         Console.WriteLine($"Status zamowienia: {przedmiot.Value.Item1}");
         Console.WriteLine("Przedmioty:");
-        foreach (var fruit in przedmiot.Value.Item2) 
+        foreach (var item in przedmiot.Value.Item2) 
         {
-            Console.WriteLine($"- {fruit}");
+            Console.WriteLine($"- {item}");
         }
     }
 }
