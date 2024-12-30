@@ -16,6 +16,10 @@ namespace Laboratorium_3
             set { adventure = value; }
         }
 
+        public override void View()
+        {
+            Console.WriteLine(adventure);
+        }
         public AdventureBook(string title, Person author, int datePublication, string adventure) : base(title, author, datePublication)
         {
             this.adventure = adventure;

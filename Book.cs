@@ -21,7 +21,7 @@ namespace Laboratorium_3
             this.datePublication = datePublication;
         }
 
-        public void View()
+        public virtual void View()
         {
             Console.WriteLine($"Tytul: \t{title}\nAutor: \t");
             author.View();
