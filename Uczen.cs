@@ -9,7 +9,7 @@ namespace Lab_4_OOP
     class Uczen : Osoba
     {
         string szkola;
-        public Uczen(string imie, string nazwisko, int pesel,string szkola) : base(imie, nazwisko, pesel) 
+        public Uczen(string imie, string nazwisko, string pesel,string szkola) : base(imie, nazwisko, pesel) 
         {
         this.szkola = szkola;
         }
