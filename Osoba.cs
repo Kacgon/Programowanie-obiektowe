@@ -78,7 +78,7 @@ namespace Lab_4_OOP
 
         public void getEducationInfo(string wyksztalcenie)
         {
-            Console.WriteLine($"wyksztalcenie: {wyksztalcenie}");
+            Console.WriteLine($"wyksztalceni: {wyksztalcenie}");
         }
 
         public void getGender(string pesel)
